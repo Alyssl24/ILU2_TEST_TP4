@@ -8,8 +8,6 @@ public class Game {
 	}
 	
 	public int score() {
-		int scoreFinal = score;
-		score = 0;
-		return scoreFinal;
+		return score;
 	}
 }
